@@ -1,22 +1,21 @@
 # SQL-ALCHEMY
-Restaurant Review App
+# Restaurant Review App
 
 This is a restaurant review application that allows users to review and rate restaurants. It provides features for managing restaurants, customers, and their reviews. The project is built using Python and SQLAlchemy for database management.
-Table of Contents
+# Table of Contents
 
-    Getting Started
+   # Getting Started
         Prerequisites
         Installation
-    Usage
+  # Usage
         Database Setup
         Running the Application
-    Project Structure
-    Features
-    Contributing
-    License
+   #  Project Structure
+   #  Contributing
+   #  License
 
-Getting Started
-Prerequisites
+# Getting Started
+# Prerequisites
 
 Before you begin, ensure you have met the following requirements:
 
@@ -24,7 +23,7 @@ Before you begin, ensure you have met the following requirements:
     SQLAlchemy installed (you can install it using pip install SQLAlchemy)
     SQLite or another supported database system
 
-Installation
+# Installation
 
     Clone the repository:
 
@@ -40,7 +39,7 @@ shell
 python -m venv venv
 source venv/bin/activate  # On Windows, use: venv\Scripts\activate
 
-Install project dependencies:
+# Install project dependencies:
 
 shell
 
@@ -72,7 +71,8 @@ shell
 python app.py
 
 The application will start and be accessible at http://localhost:5000. You can access the endpoints and interact with the restaurant review system.
-Project Structure
+
+# Project Structure
 
     app.py: The main application file.
     models.py: SQLAlchemy model definitions for Restaurant, Customer, and Review.
@@ -81,7 +81,7 @@ Project Structure
     templates/: HTML templates for the user interface (if applicable).
     static/: Static assets (CSS, JavaScript, images, etc.).
 
-Features
+# Features
 
     View and manage restaurants.
     View and manage customers.
@@ -91,9 +91,9 @@ Features
     View all reviews for a restaurant.
     ...
 
-Contributing
+# Contributing
 
-Contributions are welcome! If you'd like to contribute to the project, please follow these steps:
+# Contributions are welcome! If you'd like to contribute to the project, please follow these steps:
 
     Fork the project.
     Create your feature branch (git checkout -b feature/your-feature-name).
@@ -101,7 +101,7 @@ Contributions are welcome! If you'd like to contribute to the project, please fo
     Push to the branch (git push origin feature/your-feature-name).
     Create a new pull request.
 
-License
+# License
 
 This project is licensed under the MIT License.
 AUTHOR:BRIAN MARTIN
